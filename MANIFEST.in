@@ -1,0 +1,15 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include QUICKSTART.md
+include CLAUDE_SETUP.md
+include ARCHITECTURE.md
+
+recursive-include src *.py
+recursive-include examples *.py
+recursive-include examples README.md
+
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
