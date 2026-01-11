@@ -2,6 +2,7 @@
 
 > **让AI读懂任何复杂文档** - 解决AI上下文限制问题的通用MCP服务器
 
+[![PyPI version](https://badge.fury.io/py/doc-mcp-server.svg)](https://pypi.org/project/doc-mcp-server/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
@@ -48,11 +49,11 @@
 ### 安装
 
 ```bash
-# 方式1: 从PyPI安装(即将上线)
+# 从PyPI安装（推荐）
 pip install doc-mcp-server
 
-# 方式2: 从源码安装
-git clone https://github.com/yourusername/doc-mcp-server
+# 从源码安装
+git clone https://github.com/jiahuidegit/doc-mcp-server
 cd doc-mcp-server
 pip install -e .
 ```
@@ -222,7 +223,7 @@ AI返回:
 ### 开发环境设置
 
 ```bash
-git clone https://github.com/yourusername/doc-mcp-server
+git clone https://github.com/jiahuidegit/doc-mcp-server
 cd doc-mcp-server
 pip install -e ".[dev]"
 pytest
@@ -239,7 +240,7 @@ MIT License - 详见 [LICENSE](LICENSE)
 
 ## 📮 联系方式
 
-- GitHub Issues: [提交问题](https://github.com/yourusername/doc-mcp-server/issues)
+- GitHub Issues: [提交问题](https://github.com/jiahuidegit/doc-mcp-server/issues)
 - 邮箱: your.email@example.com
 
 ---
@@ -305,7 +306,7 @@ analyze_document → 获取结构 → read_section → 精确读取 → 完成
 
 ### 社区
 
-- **GitHub**: [仓库地址](https://github.com/yourusername/doc-mcp-server)
+- **GitHub**: [仓库地址](https://github.com/jiahuidegit/doc-mcp-server)
 - **Discord**: [加入讨论](https://discord.gg/xxx)
 - **知乎**: [技术文章](https://zhihu.com/xxx)
 
