@@ -44,12 +44,14 @@ class SectionInfo:
 @dataclass
 class FieldInfo:
     """字段信息"""
-    key: str  # 字段唯一键(章节名_字段名)
-    name: str  # 字段名
+    key: str  # 字段唯一键(章节名_完整字段路径)
+    name: str  # 字段显示名(最底层字段名)
     coord: str  # 坐标(如A1)
-    row: int
-    col: int
+    row: int  # 表头所在行
+    col: int  # 列号
     section: str  # 所属章节
+    full_path: Optional[str] = None  # 完整字段路径(多层表头合并, 如: 借贷交易_余额_被追偿余额)
+    data_row: Optional[int] = None  # 数据所在行(实际值的位置)
     value_type: Optional[str] = None  # 数据类型
 
 
