@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2025-01-12
+
+### Improved
+- 🚀 Excel complex table recognition significantly enhanced
+- 📊 Multi-level header merging algorithm optimized
+- 🔍 Automatic subsection splitting for complex sections
+- 🎯 Header detection logic improved with keyword recognition
+- 📉 Field count reduced by 66% through deduplication (270 → 93)
+
+### Fixed
+- ✅ Data reading now correctly reads from data rows instead of header rows
+- ✅ Field path generation supports multi-level hierarchy
+- ✅ Empty rows in headers are now handled correctly
+
+### Changed
+- 📝 Extended `FieldInfo` structure with `full_path` and `data_row` fields
+- 🏗️ Sections can now be automatically split into subsections
+- 📋 Field keys now include full hierarchical path
+
+### Performance
+- Chapter structure optimized: 8 → 12 subsections for better organization
+- More accurate field identification for complex enterprise credit reports
+
 ## [0.1.0] - 2025-01-11
 
 ### Added
@@ -41,5 +64,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Architecture documentation
 - Contributing guidelines
 
-[unreleased]: https://github.com/yourusername/doc-mcp-server/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/yourusername/doc-mcp-server/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/yourusername/doc-mcp-server/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/yourusername/doc-mcp-server/releases/tag/v0.1.0

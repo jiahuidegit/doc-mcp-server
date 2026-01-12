@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "doc-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "让AI读懂任何复杂文档 - MCP服务器"
 authors = [{name = "Yang Jiahui", email = "your.email@example.com"}]
 readme = "README.md"
