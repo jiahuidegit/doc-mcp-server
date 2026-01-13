@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "doc-mcp-server"
-version = "0.1.1"
+version = "0.1.2"
 description = "让AI读懂任何复杂文档 - MCP服务器"
-authors = [{name = "Yang Jiahui", email = "your.email@example.com"}]
+authors = [{name = "Yang Jiahui", email = "jiahuide0320@gmail.com"}]
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
@@ -42,10 +42,10 @@ vector = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/doc-mcp-server"
-Documentation = "https://github.com/yourusername/doc-mcp-server#readme"
-Repository = "https://github.com/yourusername/doc-mcp-server"
-Issues = "https://github.com/yourusername/doc-mcp-server/issues"
+Homepage = "https://github.com/jiahuidegit/doc-mcp-server"
+Documentation = "https://github.com/jiahuidegit/doc-mcp-server#readme"
+Repository = "https://github.com/jiahuidegit/doc-mcp-server"
+Issues = "https://github.com/jiahuidegit/doc-mcp-server/issues"
 
 [project.scripts]
 doc-mcp-server = "document_analyzer.server:main"

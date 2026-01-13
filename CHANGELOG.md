@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2025-01-13
+
+### Documentation
+- 📚 Complete documentation restructure with Chinese/English separation
+- 🔧 Fixed configuration instructions for Claude Code CLI (not Claude Desktop)
+- 📖 New comprehensive installation guide for macOS/Windows/Linux
+- 🔄 Added dedicated update guide
+- 🚀 New 5-minute quick start guide
+- 🔍 Comprehensive troubleshooting documentation
+- 💡 Added API documentation with real-world use cases
+- 🌍 Full bilingual support (docs/zh and docs/en)
+- 🗑️ Removed outdated QUICKSTART.md and CLAUDE_SETUP.md
+
+### Changed
+- ⚙️ Configuration method updated: Claude Desktop → Claude Code CLI
+- 📝 Configuration file location: `~/.claude.json` or project `.claude.json`
+- 🔗 Updated GitHub repository links to correct username
+- ✉️ Updated author email to jiahuide0320@gmail.com
+
 ## [0.1.1] - 2025-01-12
 
 ### Improved
@@ -64,6 +83,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Architecture documentation
 - Contributing guidelines
 
-[unreleased]: https://github.com/yourusername/doc-mcp-server/compare/v0.1.1...HEAD
-[0.1.1]: https://github.com/yourusername/doc-mcp-server/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/yourusername/doc-mcp-server/releases/tag/v0.1.0
+[unreleased]: https://github.com/jiahuidegit/doc-mcp-server/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/jiahuidegit/doc-mcp-server/compare/v0.1.1...v0.1.2
+[0.1.1]: https://github.com/jiahuidegit/doc-mcp-server/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/jiahuidegit/doc-mcp-server/releases/tag/v0.1.0
